@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+#cabecario{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.links{
+    margin-left: 50%;
+    margin-right: 5%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Poppins", sans-serif;
+    
+}
+.links_cabecario{
+    text-decoration: none;
+    color: #666666;
+    margin-top: 15%;
+    width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.links_botao{
+    margin-top: 15%;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.luz{
+    background-color: #fff;
+}
+.sombra{
+    background-color: #000;
+    color: #fff;
+}
+
+.links_botao img{
+    width: 30px;
+    height: 30px;
+}
+.logo_texto{
+    display: flex;
+    gap: 8%;
+    margin: 0% 1%;
+    padding-left: 2%;
+    
+}
+.texto_cabecario{
+    margin-top: 11%;
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    color: #195232;
+    width: 190px;
+}
+#introducao{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+}
+#imagem_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}
+
+
+
+.texto_meio{
+    font-family: "Poppins", sans-serif;
+    color: #9e9e9e;
+    font-size: 4.75rem;
+    font-weight: bold;
+}
+.mudas{
+    color: #508A16;
+}
+.meio_botao{
+    width: 500px;
+    height: 100px;
+
+    background-color: #508A16;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    transition: 0.7s;
+    font-weight: 600;
+}
+.meio_botao a{
+    width: 500px;
+    height: 100px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.meio_botao:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #426f16;
+}
+
+
+#sobre_nos_meio{
+    width: 100%;
+    height: 90vh;
+    background-color: #508A16;
+    display: flex;
+    align-items: center;
+}
+.sobre_nos_lados{
+    margin-left: 5%;
+    width: 85%;
+    display: flex;
+    gap: 8%;
+}
+.sobre_nos_lado_esquerdo{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7rem;
+    text-align: justify;
+    color: #fff;
+}
+.sobre_nos_lado_esquerdo h2{
+    font-size: 2.5rem;
+}
+.sobre_nos_lado_direito{
+    display: flex;
+    align-items: center;
+}
+.sobre_nos_lado_direito img{
+    border-radius: 15px;
+}
+#meio_catalogo{
+    width: 100%;
+    margin-top: 5%;
+}
+.meio_catalogo_geral h2{
+    width: 100%;
+    height: 1%;
+    
+    font-size: 2rem;
+    padding-left: 5%;
+}
+.meio_catalogo_geral{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: center;
+}
+.div_e_meio_catalogo_geral_opicoes{
+    display: flex;
+}
+.meio_catalogo_geral_opicoes{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 3.5%;
+}
+.div{
+    border: 1px solid #66666678;;
+    margin-left: 5.5%;
+}
+.conteiner_opcao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 16px;
+    width: 290px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 1px rgba(97, 97, 97, 0.595);
+    transition: 0.5s;
+}
+.conteiner_opcao:hover{
+    transform: scale(1.080);
+    
+}
+
+.imagem{
+    border-radius: 16px;
+    height: 205px;
+    width: 205px;
+}
+.titulo_catalogo{
+    font-size: 1.5rem;
+}
+.link{
+    text-decoration: none;
+    color: #666666;
+}
+.link:hover{
+    text-decoration: underline;
+    color: #3a3a3a;
+}
+.botao_contato {
+    width: 40%;
+    padding: 2.7%;
+    background-color: #508A16;
+    border-radius: 35px;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 550;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.botao_contato:hover {
+    cursor: pointer;
+    background-color: #426f16;
+    transform: scale(1.05);
+}
+
+/*Responsividade*/
+
+/* Responsividade para telas menores */
+@media screen and (max-width: 1024px) {
+    #introducao {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 50px 20px;
+        gap: 40px;
+    }
+
+    #introducao img {
+        width: 80%;
+        height: auto;
+    }
+
+    .texto_meio {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .meio_botao, .meio_botao a {
+        width: 90%;
+        height: auto;
+        font-size: 1.5rem;
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .sobre_nos_lados {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sobre_nos_lado_esquerdo {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .sobre_nos_lado_direito img {
+        width: 90%;
+        height: auto;
+    }
+
+    #sobre_nos_meio {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .meio_catalogo_geral h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .conteiner_opcao {
+        width: 90%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .imagem {
+        width: 180px;
+        height: 180px;
+    }
+
+    .links {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .links_cabecario {
+        margin-top: 5%;
+        width: auto;
+        height: auto;
+    }
+
+    .texto_cabecario {
+        font-size: 1.5rem;
+        margin-top: 5%;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .texto_meio {
+        font-size: 2.5rem;
+    }
+
+    .meio_botao, .meio_botao a {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    .imagem {
+        width: 150px;
+        height: 150px;
+    }
+
+    .conteiner_opcao button {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    .titulo_catalogo {
+        font-size: 1.2rem;
+    }
+
+    .sobre_nos_lado_esquerdo {
+        font-size: 1rem;
+    }
+}

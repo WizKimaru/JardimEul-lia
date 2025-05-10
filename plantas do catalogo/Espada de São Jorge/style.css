@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d1d1d1;
+}
+#cabecario{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+}
+.links{
+    margin-left: 55%;
+    margin-right: 5%;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    
+}
+.links button{
+    width: 350px;
+    padding: 15px;
+    background-color: #508A16;
+    border-radius: 40px;
+    border: none;
+    font-size: 1.3rem;
+    transition: 0.7s;
+    font-weight: 700;
+
+}
+.links button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #6db526d8;
+    color: #ffffff83;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.logo_texto{
+    display: flex;
+    gap: 8%;
+}
+.texto_cabecario{
+    margin-top: 10%;
+    font-size: 2rem;
+    color: #195232;
+    width: 235px;
+   
+    font-family: "Oswald", sans-serif;
+}
+
+main{
+    padding: 8% 7%; 
+    display: flex;
+       
+}
+main img{
+    border-radius: 16px;
+}
+
+div{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    padding: 4.5%;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+details p{
+    color: #508A16;
+}
+.adquirir{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.botao_contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    padding: 7%;
+    margin-top: 5%;
+    background-color: #508A16;
+    color: #fff;
+    border-radius: 35px;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.botao_contato:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #6db526d8;
+    color: #ffffff83;
+}
+
+.botao_adquirir{
+    display: flex;
+    justify-content: center;
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 1024px) {
+
+    .links {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .links button {
+        width: 35vw;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .texto_cabecario {
+        display: none;
+    }
+
+    .logo_texto {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 8% 4%;
+    }
+
+    div {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    main img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .links {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .links button {
+        width: 50vw;
+        padding: 10px;
+        font-size: 1rem;
+        margin-top: 5%;
+    }
+
+    .botao_contato {
+        width: 90%;
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .texto_cabecario {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .logo_texto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cabecario {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .links button {
+        width: 70vw;
+    }
+
+    .texto_cabecario {
+        font-size: 1.3rem;
+    }
+
+    .botao_contato {
+        font-size: 1rem;
+        padding: 8px;
+    }
+}
